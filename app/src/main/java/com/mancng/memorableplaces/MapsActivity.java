@@ -120,16 +120,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private void setUpMapIfNeeded() {
 
-        if (mMap == null) {
-
-            mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMapAsync(this);
-
-            mMap.setOnMapLongClickListener(this);
-
-            if (mMap != null) {
-                setUpMap();
-            }
-        }
+//        if (mMap == null) {
+//
+//            mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMapAsync(this);
+//
+//            mMap.setOnMapLongClickListener(this);
+//
+//            if (mMap != null) {
+//                setUpMap();
+//            }
+//        }
 
     }
 
